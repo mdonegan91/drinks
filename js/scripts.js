@@ -21,6 +21,8 @@ window.onload = function () {
         // we check if the age is greater than 21.
         if (age >= 21) {
             drinkMenu.removeAttribute("class");
+        } else {
+            under21Message.removeAttribute("class");
         }
     };
 };
